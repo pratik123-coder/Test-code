@@ -1,0 +1,46 @@
+.popular {
+    color: #3D3D3D;
+    text-align: left;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: "GilroyBold-☞", sans-serif;
+    font-size: clamp(1.6rem, 3vw, 2.8rem); /* Adjust the minimum (36px), preferred (5vw), and maximum (48px) font sizes as needed */
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.blogimg4{
+    width:80%;    
+    justify-self: center;
+}
+
+.blogss{
+    width: 100%;
+    padding-top: 0.5rem;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    place-items: 'center';
+}
+
+.booxx{
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.pagging{
+    margin-top:3rem;
+    padding:4rem;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width:800px){
+    .blogss{
+        display: grid;
+        grid-template-columns: repeat(1,1fr) ;
+    }
+    .pagging {
+        margin-top: 1rem;
+        padding: 0 1rem;
+      }
+}

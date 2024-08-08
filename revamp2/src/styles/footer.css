@@ -1,0 +1,284 @@
+footer{
+  padding: 0;
+  height: 100%;
+  margin-top: 10rem;
+  background-color: black;
+}
+.home {
+  color: white;
+  text-align: left;
+  font-family: "GilroyRegular-☞", sans-serif;
+  font-size: 18px;
+  line-height: 13px;
+  font-weight: 400;
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 4%;
+  flex-wrap: wrap;
+}
+
+.row{
+  display: flex;
+  margin-bottom:1rem;
+}
+
+.arr{
+  width: 12.997px;
+  height: 12.997px;
+  flex-shrink: 0;
+  background-color: black;
+}
+.address{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap:1rem;
+  margin-bottom: 1rem;
+}
+
+.maiil{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap:1rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.whitefield-bengaluru-560066,
+.whitefield-bengaluru-560066 * {
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.whitefield-bengaluru-560066 {
+  color: white;
+  text-align: left;
+  font-family: "GilroyRegular-☞", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+}
+h4 {
+  color: #C30010;
+  text-align: left;
+  font-family: "GilroyBold-☞", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+.footer-columns {
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 4%;
+}
+
+.column1 {
+  display: flex;
+  justify-content: flex-start;
+  width:auto
+}
+
+
+.column1 img{
+  align-self: center;
+}
+
+.child{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width:40%;
+}
+
+.social-media a{
+  margin: 0.3rem;
+}
+
+.design{
+  size-adjust: 10px;
+}
+.footersvg {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.des{
+  position: relative;
+  width:100%;
+  bottom:0;
+  margin:0;
+  padding: 0;
+}
+.centered-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  padding: 5px 10px;
+  text-align: center;
+}
+.social-media{
+  display:flex;
+}
+
+
+@media only screen and (min-width:1001px) and (max-width:1366px)
+{
+
+.desa{
+  display: none;
+}
+.child{
+  display: felx;
+  flex-direction: row;
+
+}
+}
+
+@media only screen and (min-width:781px) and (max-width:1000px)
+{
+.column4{
+  display: none;
+} 
+.desa{
+  display: none;
+}
+.child{
+  display: felx;
+  flex-direction: row;
+  gap:5vw;
+}
+}
+
+
+@media only screen and (min-width:781px){
+  .desa{
+    display: none;
+  }
+  .child{
+    display: felx;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .home{
+    color: #3d3d3d;
+  text-align: left;
+  font-family: "GilroyRegular-☞", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+}
+  .child{
+    flex-direction: column;
+    width:90%;
+    flex-wrap: wrap;
+  }
+  .column1{
+    justify-content: center;
+  }
+  .column2,
+  .column3{
+    width: 100%;
+    padding:6%;
+    flex-wrap: wrap;
+  }
+  .contact11{
+    display:none;
+  }
+  .contact1{
+    font-size: 3rem;
+  }
+  h4 {
+  color: #3D3D3D;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 15px; 
+  text-align: left;
+  font-family: "GilroyBold-☞", sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  }
+
+  .column4{
+    display: none;
+  }
+  .column2,
+  .column3{
+    align-items: center;
+  }
+  .arr{
+    width:1rem;
+  }
+  .home{
+    margin-left:1rem;
+  }
+  .centered-text {
+    font-size: 5px;
+  }
+
+  .footersvg{
+    width: 100vw;
+  }
+
+  .footersvg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .som{
+    fill: #3D3D3D;
+  }
+  .social-media{
+    padding-right: 2rem;
+  }
+  .design{
+    size-adjust: 10px;
+  }
+  .footersvgm{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .desa{
+    position: relative;
+    width:100%;
+    bottom:0;
+    margin:0;
+    padding: 0;
+  }
+  .centered-textm {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  .des{
+    display: none;
+  } 
+
+}
+
+
+

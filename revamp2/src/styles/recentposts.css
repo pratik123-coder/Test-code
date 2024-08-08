@@ -1,0 +1,105 @@
+.headin {
+    color: #333;
+    text-align: left;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: "GilroyBold-☞", sans-serif;
+    font-size: clamp(36px, 5vw, 40px); 
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.autor{
+    padding-top: 1rem;
+    color: #FD7A33;
+    font-family: "Gilroy-SemiBold",sans-serif;
+    font-size: clamp(1rem,2vw,1rem);
+    font-style: normal;
+    font-weight: 400;
+}
+.ins{
+    text-align: left;
+    color: #1A1A1A;
+    font-family: "Gilroy-SemiBold",sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: clamp(1rem,1vw,2rem);
+    font-style: normal;
+    font-weight: 400;
+}
+.inside{
+    text-align: left;
+    color: #667085;
+    font-family: "Gilroy-Regular",sans-serif;
+    line-height: clamp(1.2rem,1vw,1.2rem);
+    font-style: normal;
+    font-weight: 400;
+}
+.bottom{
+    color: #FD7A33;
+    font-family: "Gilroy-Bold",sans-serif;
+    padding-top: 0.6rem;
+    font-size: clamp(1rem,1vw,1rem);
+    font-style: normal;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
+.bloggimg{
+    width:100%;
+    height: 36vh;
+    display:felx;
+    justify-content: center;
+    align-items: center;
+    background-color: #FD7A33;
+    justify-content: center;
+}
+.blogimg4{
+    width:100%;
+    height: 100%;    
+    object-fit: cover;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.blogss{
+    width: 100%;
+    height: 100%;
+    padding-top: 0.5rem;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    place-items: 'center';
+}
+.blogcontent{
+    align-items: flex-start;
+    width: 100%;
+}
+
+.booxx{
+    width: 100%;
+    text-decoration: none;
+    padding-left: 5rem;
+    display:flex;
+    flex-direction: column;
+}
+
+.pagging{
+    padding-top:3rem;
+    cursor: pointer;
+    padding:4rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width:800px){
+    .blogss{
+        display: grid;
+        grid-template-columns: repeat(1,1fr) ;
+    }
+    .pagging {
+        margin-top: 1rem;
+        padding: 0 1rem;
+      }
+}

@@ -1,0 +1,28 @@
+
+:root {
+    --marquuee-width: 100%;
+    --marquuee-height: auto;
+    --marquuee-elements: 7; 
+    --marquuee-elements-displayed: 7;
+    --marquuee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+    --marquuee-animation-duration: calc(var(--marquee-elements) * 4s);
+  }
+
+.marquuee-content {
+    animation: marquee 30s linear infinite;
+}
+.marquuee-content img{
+    width:auto;
+    height: 5rem;
+}
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+@media only screen and (max-width: 768px){
+    .marquuee-content img{
+        width:5rem;
+        height: auto;
+    } 
+}
